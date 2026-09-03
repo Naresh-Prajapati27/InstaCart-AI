@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#f8f9fa"/>
+  <!-- Pink Pouch -->
+  <g transform="translate(100, 30)">
+    <!-- Top seal line -->
+    <path d="M 30,30 L 370,30 L 380,45 L 380,520 Q 200,550 20,520 L 20,45 Z" fill="#d81b60" stroke="#c2185b" stroke-width="3"/>
+    <!-- Zip seal teeth -->
+    <line x1="40" y1="50" x2="360" y2="50" stroke="#b71c1c" stroke-width="2" stroke-dasharray="6,4"/>
+    <line x1="40" y1="55" x2="360" y2="55" stroke="#b71c1c" stroke-width="2" stroke-dasharray="6,4"/>
+    <!-- Gold Border Top/Bottom -->
+    <rect x="30" y="75" width="340" height="12" fill="#ffd54f"/>
+    <rect x="25" y="505" width="350" height="14" fill="#ffd54f"/>
+    <!-- Gold Circle with Black Inner -->
+    <circle cx="200" cy="200" r="85" fill="#ffd54f"/>
+    <circle cx="200" cy="200" r="78" fill="#111827"/>
+    <!-- TATA Salt Text -->
+    <text x="200" y="185" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="34" fill="#ffffff" text-anchor="middle" letter-spacing="2">TATA</text>
+    <text x="200" y="225" font-family="'Georgia', serif" font-style="italic" font-weight="bold" font-size="36" fill="#ffd54f" text-anchor="middle">Salt</text>
+    <!-- Badge India's No 1 -->
+    <rect x="280" y="100" width="80" height="60" fill="#ffecb3" rx="4"/>
+    <text x="320" y="120" font-family="sans-serif" font-weight="bold" font-size="10" fill="#000" text-anchor="middle">INDIA'S</text>
+    <text x="320" y="138" font-family="sans-serif" font-weight="900" font-size="18" fill="#d81b60" text-anchor="middle">NO.1</text>
+    <text x="320" y="152" font-family="sans-serif" font-weight="bold" font-size="9" fill="#000" text-anchor="middle">ROCK SALT*</text>
+    <!-- Text Himalayan Rock Salt -->
+    <text x="200" y="310" font-family="sans-serif" font-weight="900" font-size="26" fill="#ffffff" text-anchor="middle" letter-spacing="1">HIMALAYAN</text>
+    <text x="200" y="340" font-family="sans-serif" font-weight="900" font-size="28" fill="#ffffff" text-anchor="middle" letter-spacing="1">ROCK SALT~</text>
+    <text x="200" y="370" font-family="'Georgia', serif" font-style="italic" font-size="16" fill="#ffffff" text-anchor="middle">With Natural Trace Minerals</text>
+    <!-- Pink Salt Window -->
+    <path d="M 60,400 Q 200,370 340,430 Q 200,470 60,400 Z" fill="#ffd54f"/>
+    <path d="M 65,403 Q 200,373 335,428 Q 200,465 65,403 Z" fill="#f48fb1"/>
+    <!-- Salt Texture dots -->
+    <circle cx="120" cy="410" r="3" fill="#f8bbd0"/>
+    <circle cx="150" cy="415" r="4" fill="#f06292"/>
+    <circle cx="180" cy="405" r="3" fill="#ffffff"/>
+    <circle cx="220" cy="420" r="4" fill="#f8bbd0"/>
+    <circle cx="260" cy="425" r="3" fill="#f06292"/>
+    <circle cx="290" cy="415" r="3" fill="#ffffff"/>
+    <!-- Veg Symbol -->
+    <rect x="320" y="460" width="22" height="22" stroke="#2e7d32" stroke-width="2" fill="#fff"/>
+    <circle cx="331" cy="471" r="6" fill="#2e7d32"/>
+  </g>
+</svg>

@@ -1,0 +1,143 @@
+{
+  "entities": {
+    "users": {
+      "title": "User Profiles",
+      "description": "Stores registered user account details for customers, delivery agents, and admins",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "role": { "type": "string" },
+        "status": { "type": "string" },
+        "phone": { "type": "string" },
+        "address": { "type": "string" },
+        "avatar": { "type": "string" },
+        "vehicle": { "type": "string" },
+        "city": { "type": "string" },
+        "provider": { "type": "string" },
+        "emailVerified": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    },
+    "products": {
+      "title": "Products Catalog",
+      "description": "Stores store grocery inventory items and prices",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "category": { "type": "string" },
+        "categoryName": { "type": "string" },
+        "price": { "type": "number" },
+        "originalPrice": { "type": "number" },
+        "unit": { "type": "string" },
+        "image": { "type": "string" },
+        "rating": { "type": "number" },
+        "reviewsCount": { "type": "number" },
+        "stock": { "type": "number" },
+        "dietaryTags": { "type": "array" },
+        "calories": { "type": "number" },
+        "description": { "type": "string" },
+        "organic": { "type": "boolean" },
+        "fresh": { "type": "boolean" },
+        "discountPercent": { "type": "number" },
+        "origin": { "type": "string" }
+      }
+    },
+    "orders": {
+      "title": "Orders",
+      "description": "Stores completed purchase orders, delivery progress, tracking OTPs, and ratings",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "customerName": { "type": "string" },
+        "customerEmail": { "type": "string" },
+        "customerPhone": { "type": "string" },
+        "deliveryAddress": { "type": "string" },
+        "addressType": { "type": "string" },
+        "items": { "type": "array" },
+        "subtotal": { "type": "number" },
+        "deliveryFee": { "type": "number" },
+        "tip": { "type": "number" },
+        "discount": { "type": "number" },
+        "tax": { "type": "number" },
+        "totalAmount": { "type": "number" },
+        "paymentMethod": { "type": "string" },
+        "paymentStatus": { "type": "string" },
+        "orderStatus": { "type": "string" },
+        "deliveryAgentId": { "type": "string" },
+        "deliveryAgentName": { "type": "string" },
+        "deliveryAgentPhone": { "type": "string" },
+        "deliveryAgentVehicle": { "type": "string" },
+        "estimatedDeliveryTime": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "otp": { "type": "string" }
+      }
+    },
+    "agents": {
+      "title": "Delivery Agents",
+      "description": "Stores rider network account profiles, earnings, and vehicle details",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string" },
+        "vehicle": { "type": "string" },
+        "vehicleType": { "type": "string" },
+        "city": { "type": "string" },
+        "rating": { "type": "number" },
+        "status": { "type": "string" },
+        "documentsVerified": { "type": "boolean" },
+        "completedDeliveries": { "type": "number" },
+        "totalEarnings": { "type": "number" },
+        "walletBalance": { "type": "number" }
+      }
+    },
+    "buyAgainReminders": {
+      "title": "Buy Again Reminders",
+      "description": "Tracks periodic reorder prompts for last order items",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "customerEmail": { "type": "string" },
+        "lastOrderId": { "type": "string" },
+        "orderDate": { "type": "string" },
+        "items": { "type": "array" },
+        "totalAmount": { "type": "number" },
+        "timeframeDays": { "type": "number" },
+        "remindAt": { "type": "string" },
+        "status": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "users",
+      "description": "User accounts collection"
+    },
+    "/products/{productId}": {
+      "schema": "products",
+      "description": "Store products catalog collection"
+    },
+    "/orders/{orderId}": {
+      "schema": "orders",
+      "description": "Grocery orders collection"
+    },
+    "/agents/{agentId}": {
+      "schema": "agents",
+      "description": "Delivery riders collection"
+    },
+    "/buyAgainReminders/{reminderId}": {
+      "schema": "buyAgainReminders",
+      "description": "Reorder reminders collection"
+    }
+  }
+}

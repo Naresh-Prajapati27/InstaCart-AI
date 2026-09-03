@@ -1,0 +1,56 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Global helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    // Default catch-all
+    match /{document=**} {
+      allow read, write: if true;
+    }
+
+    // User Profiles
+    match /users/{userId} {
+      allow read: if true;
+      allow write: if isSignedIn() || request.resource.data.email != null;
+    }
+
+    // Products Catalog
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Orders
+    match /orders/{orderId} {
+      allow read: if true;
+      allow create: if true;
+      allow update: if true;
+      allow delete: if true;
+    }
+
+    // Delivery Agents
+    match /agents/{agentId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Buy Again Reminders
+    match /buyAgainReminders/{reminderId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Connection Test Document
+    match /test/{document} {
+      allow read, write: if true;
+    }
+  }
+}

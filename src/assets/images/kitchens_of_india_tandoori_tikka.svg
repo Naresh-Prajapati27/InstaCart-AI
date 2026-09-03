@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#f8f9fa"/>
+  <!-- Orange Box -->
+  <g transform="translate(100, 30)">
+    <rect x="0" y="0" width="400" height="530" fill="#e65100" rx="10"/>
+    <!-- Arch Header -->
+    <path d="M 30,120 Q 200,20 370,120 L 370,510 L 30,510 Z" fill="#fff8e1"/>
+    <!-- Kitchens of India Logo -->
+    <rect x="110" y="110" width="180" height="50" fill="#ffb300" rx="4"/>
+    <text x="200" y="132" font-family="'Georgia', serif" font-weight="bold" font-size="18" fill="#3e2723" text-anchor="middle">Kitchens</text>
+    <text x="200" y="152" font-family="'Arial Black', sans-serif" font-size="22" fill="#1a237e" text-anchor="middle">of INDIA</text>
+    <!-- Title Text -->
+    <text x="200" y="200" font-family="'Trebuchet MS', sans-serif" font-weight="bold" font-size="28" fill="#b71c1c" text-anchor="middle">Marinade for</text>
+    <text x="200" y="240" font-family="'Impact', sans-serif" font-size="40" fill="#b71c1c" text-anchor="middle" letter-spacing="1">Tandoori Tikka</text>
+    <text x="200" y="265" font-family="sans-serif" font-weight="bold" font-size="11" fill="#e65100" text-anchor="middle">GINGER &amp; GARLIC BASED MARINADE FOR INDIAN CHICKEN KEBABS</text>
+    <!-- Grill Photo Area -->
+    <g transform="translate(40, 290)">
+      <ellipse cx="160" cy="140" rx="140" ry="70" fill="#212121"/>
+      <ellipse cx="160" cy="135" rx="130" ry="60" fill="#ff3d00"/>
+      <!-- Grilled Tikka pieces -->
+      <rect x="80" y="110" width="35" height="35" fill="#d50000" rx="6"/>
+      <rect x="125" y="100" width="40" height="40" fill="#bf360c" rx="6"/>
+      <rect x="175" y="115" width="35" height="35" fill="#d50000" rx="6"/>
+      <rect x="220" y="105" width="38" height="38" fill="#bf360c" rx="6"/>
+      <!-- Skewer line -->
+      <line x1="50" y1="130" x2="270" y2="130" stroke="#e0e0e0" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+        <rect width='400' height='400' fill='#f8fafc'/>
+        <g>
+            <!-- Blue Pack -->
+            <path d='M80 60 L320 60 L310 340 L90 340 Z' fill='#0055B8'/>
+            <!-- Red Oval Brand Logo -->
+            <ellipse cx='200' cy='115' rx='65' ry='28' fill='#E31837' stroke='#FFD100' stroke-width='3'/>
+            <text x='200' y='122' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='#FFFFFF' text-anchor='middle'>Haldiram's</text>
+            <!-- Yellow Banner -->
+            <rect x='100' y='160' width='200' height='45' fill='#FFD100' rx='6'/>
+            <text x='200' y='190' font-family='Arial Black' font-size='22' fill='#0055B8' text-anchor='middle'>MOONG DAL</text>
+            <!-- Crispy Moong Dal Lentils Bowl -->
+            <ellipse cx='200' cy='275' rx='75' ry='32' fill='#EAA824'/>
+            <circle cx='170' cy='265' r='3' fill='#FFF0C2'/>
+            <circle cx='190' cy='275' r='3' fill='#FFF0C2'/>
+            <circle cx='210' cy='270' r='3' fill='#FFF0C2'/>
+            <circle cx='230' cy='280' r='3' fill='#FFF0C2'/>
+        </g>
+    </svg>

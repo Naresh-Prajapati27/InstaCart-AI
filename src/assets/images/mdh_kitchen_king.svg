@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#f8f9fa"/>
+  <!-- Magenta Box -->
+  <g transform="translate(130, 40)">
+    <rect x="0" y="0" width="340" height="520" fill="#d81b60" rx="8"/>
+    <!-- MDH Hexagon Logo -->
+    <g transform="translate(85, 20)">
+      <polygon points="25,0 75,0 100,40 75,80 25,80 0,40" fill="#ffffff" stroke="#c2185b" stroke-width="3"/>
+      <polygon points="65,0 115,0 140,40 115,80 65,80 40,40" fill="#ffffff" stroke="#c2185b" stroke-width="3"/>
+      <polygon points="105,0 155,0 180,40 155,80 105,80 80,40" fill="#ffffff" stroke="#c2185b" stroke-width="3"/>
+      <text x="50" y="52" font-family="sans-serif" font-weight="900" font-size="32" fill="#d50000" text-anchor="middle">M</text>
+      <text x="90" y="52" font-family="sans-serif" font-weight="900" font-size="32" fill="#d50000" text-anchor="middle">D</text>
+      <text x="130" y="52" font-family="sans-serif" font-weight="900" font-size="32" fill="#d50000" text-anchor="middle">H</text>
+    </g>
+    <!-- Owner Oval Portrait -->
+    <ellipse cx="170" cy="140" rx="35" ry="42" fill="#fff" stroke="#ffd54f" stroke-width="3"/>
+    <ellipse cx="170" cy="140" rx="30" ry="36" fill="#ffe0b2"/>
+    <!-- Red Turban -->
+    <path d="M 140,120 Q 170,95 200,120 Q 170,110 140,120 Z" fill="#d50000"/>
+    <circle cx="170" cy="110" r="12" fill="#d50000"/>
+    <!-- Text Kitchen King -->
+    <text x="170" y="215" font-family="'Impact', Arial, sans-serif" font-size="36" fill="#ffffff" text-anchor="middle" letter-spacing="1">KITCHEN KING</text>
+    <text x="170" y="240" font-family="sans-serif" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">(MIXED SPICES POWDER)</text>
+    <text x="170" y="265" font-family="sans-serif" font-weight="bold" font-size="20" fill="#ffffff" text-anchor="middle">किचन किंग</text>
+    <!-- Veg Symbol -->
+    <rect x="285" y="245" width="22" height="22" stroke="#00e676" stroke-width="2" fill="#fff"/>
+    <circle cx="296" cy="256" r="6" fill="#00e676"/>
+    <!-- Curry Kadhai Dish -->
+    <g transform="translate(20, 280)">
+      <ellipse cx="150" cy="140" rx="130" ry="65" fill="#ffd54f"/>
+      <ellipse cx="150" cy="135" rx="120" ry="55" fill="#e65100"/>
+      <!-- Veggies in curry -->
+      <circle cx="110" cy="120" r="14" fill="#fff59d"/><!-- Cauliflower -->
+      <circle cx="140" cy="140" r="12" fill="#ff5722"/><!-- Carrot -->
+      <circle cx="170" cy="115" r="10" fill="#4caf50"/><!-- Capsicum -->
+      <circle cx="190" cy="135" r="8" fill="#81c784"/><!-- Pea -->
+      <circle cx="120" cy="145" r="8" fill="#81c784"/><!-- Pea -->
+      <!-- Kadhai Handles -->
+      <path d="M 10,120 Q -15,110 -10,135 Q -5,145 15,135" fill="none" stroke="#ffe0b2" stroke-width="6"/>
+      <path d="M 290,120 Q 315,110 310,135 Q 305,145 285,135" fill="none" stroke="#ffe0b2" stroke-width="6"/>
+    </g>
+  </g>
+</svg>

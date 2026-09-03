@@ -1,0 +1,22 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+        <rect width='400' height='400' fill='#f8fafc'/>
+        <g>
+            <!-- Yellow/Red Pack -->
+            <rect x='60' y='75' width='280' height='250' rx='16' fill='#FFCC00'/>
+            <path d='M60 75 L340 75 L340 140 L60 180 Z' fill='#E31837'/>
+            <!-- Britannia Logo -->
+            <rect x='80' y='85' width='110' height='22' fill='#FFFFFF' rx='3'/>
+            <text x='135' y='101' font-family='Arial' font-size='12' font-weight='bold' fill='#E31837' text-anchor='middle'>BRITANNIA</text>
+            <!-- Marie Gold Title -->
+            <text x='200' y='165' font-family='Arial Black' font-size='32' fill='#E31837' text-anchor='middle'>Marie Gold</text>
+            <!-- Round Biscuit with holes -->
+            <circle cx='150' cy='245' r='48' fill='#EAA824' stroke='#C67A10' stroke-width='3'/>
+            <circle cx='150' cy='245' r='38' fill='none' stroke='#C67A10' stroke-width='1' stroke-dasharray='4,4'/>
+            <!-- Tea Cup -->
+            <path d='M230 240 L280 240 L275 270 Q255 285 235 270 Z' fill='#FFFFFF' stroke='#DDDDDD' stroke-width='2'/>
+            <path d='M280 248 Q295 255 280 265' stroke='#FFFFFF' stroke-width='4' fill='none'/>
+            <!-- Tea Steam -->
+            <path d='M245 230 Q250 220 245 210' stroke='#FFFFFF' stroke-width='2' fill='none' opacity='0.7'/>
+            <path d='M265 230 Q270 220 265 210' stroke='#FFFFFF' stroke-width='2' fill='none' opacity='0.7'/>
+        </g>
+    </svg>

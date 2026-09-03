@@ -1,0 +1,24 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+        <rect width='400' height='400' fill='#f8fafc'/>
+        <g>
+            <!-- Green Can -->
+            <rect x='130' y='50' width='140' height='300' rx='20' fill='#009944'/>
+            <!-- Silver Cap -->
+            <ellipse cx='200' cy='50' rx='70' ry='15' fill='#E0E0E0' stroke='#CCCCCC' stroke-width='2'/>
+            <!-- Mr. Pringles Head -->
+            <circle cx='200' cy='115' r='32' fill='#FFFFFF'/>
+            <!-- Mustache -->
+            <path d='M170 120 Q200 105 230 120 Q200 140 170 120 Z' fill='#4A2511'/>
+            <circle cx='188' cy='108' r='4' fill='#000'/>
+            <circle cx='212' cy='108' r='4' fill='#000'/>
+            <!-- Red Bowtie -->
+            <polygon points='185,135 200,130 215,135 200,140' fill='#CC0000'/>
+            <!-- Brand Text -->
+            <text x='200' y='175' font-family='Arial Black' font-size='22' font-weight='900' fill='#FFFFFF' text-anchor='middle'>PRINGLES</text>
+            <text x='200' y='200' font-family='Arial' font-size='13' font-weight='bold' fill='#FFD100' text-anchor='middle'>SOUR CREAM</text>
+            <text x='200' y='216' font-family='Arial' font-size='13' font-weight='bold' fill='#FFD100' text-anchor='middle'>&amp; ONION</text>
+            <!-- Saddle Chip Stack -->
+            <path d='M160 270 Q200 240 240 270 Q200 290 160 270 Z' fill='#F3C358' stroke='#D49A24' stroke-width='2'/>
+            <path d='M160 285 Q200 255 240 285 Q200 305 160 285 Z' fill='#EAA824' stroke='#D49A24' stroke-width='2'/>
+        </g>
+    </svg>

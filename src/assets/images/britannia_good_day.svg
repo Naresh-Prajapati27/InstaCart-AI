@@ -1,0 +1,21 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+        <rect width='400' height='400' fill='#f8fafc'/>
+        <g>
+            <!-- Blue Pack -->
+            <rect x='70' y='70' width='260' height='260' rx='20' fill='#0066CC'/>
+            <!-- Britannia Logo -->
+            <rect x='130' y='90' width='140' height='26' fill='#E31837' rx='4'/>
+            <text x='200' y='108' font-family='Arial' font-size='14' font-weight='bold' fill='#FFFFFF' text-anchor='middle'>BRITANNIA</text>
+            <!-- Good Day Text -->
+            <text x='200' y='155' font-family='Arial Black' font-size='30' fill='#FFD100' text-anchor='middle'>Good Day</text>
+            <text x='200' y='180' font-family='Arial' font-size='18' font-weight='bold' fill='#FFFFFF' text-anchor='middle'>Cashew Cookies</text>
+            <!-- Cookie with Smile lines & Cashews -->
+            <circle cx='200' cy='250' r='55' fill='#EAA824' stroke='#C67A10' stroke-width='3'/>
+            <!-- Smile lines -->
+            <path d='M165 240 Q200 275 235 240' stroke='#A05D05' stroke-width='4' fill='none' stroke-linecap='round'/>
+            <path d='M170 225 Q200 255 230 225' stroke='#A05D05' stroke-width='3' fill='none' stroke-linecap='round'/>
+            <!-- Cashew Nut Pieces -->
+            <ellipse cx='180' cy='230' rx='8' ry='5' fill='#FFF0C2' transform='rotate(-30 180 230)'/>
+            <ellipse cx='220' cy='235' rx='9' ry='5' fill='#FFF0C2' transform='rotate(20 220 235)'/>
+        </g>
+    </svg>

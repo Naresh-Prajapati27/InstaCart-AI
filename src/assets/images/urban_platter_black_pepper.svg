@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#2d1b0e"/>
+  <!-- Wooden Bowl Background Texture -->
+  <circle cx="300" cy="300" r="260" fill="#4a2c11" stroke="#361f0a" stroke-width="16"/>
+  <circle cx="300" cy="300" r="230" fill="#3d230d"/>
+  <!-- Peppercorns Pile -->
+  <g fill="#1a110b" stroke="#0d0805" stroke-width="2">
+    <!-- Base layer peppercorns -->
+    <circle cx="240" cy="260" r="18"/><circle cx="270" cy="240" r="16"/><circle cx="300" cy="250" r="19"/>
+    <circle cx="330" cy="230" r="17"/><circle cx="360" cy="260" r="18"/><circle cx="220" cy="290" r="17"/>
+    <circle cx="250" cy="295" r="19"/><circle cx="280" cy="285" r="18"/><circle cx="320" cy="290" r="20"/>
+    <circle cx="350" cy="310" r="17"/><circle cx="380" cy="280" r="16"/><circle cx="210" cy="330" r="18"/>
+    <circle cx="240" cy="335" r="19"/><circle cx="270" cy="325" r="21"/><circle cx="310" cy="330" r="18"/>
+    <circle cx="340" cy="345" r="20"/><circle cx="370" cy="335" r="18"/><circle cx="400" cy="320" r="17"/>
+    <circle cx="230" cy="370" r="18"/><circle cx="260" cy="365" r="20"/><circle cx="290" cy="375" r="19"/>
+    <circle cx="330" cy="370" r="21"/><circle cx="360" cy="380" r="18"/><circle cx="390" cy="365" r="19"/>
+    <circle cx="250" cy="410" r="18"/><circle cx="280" cy="415" r="20"/><circle cx="320" cy="410" r="19"/>
+    <circle cx="350" cy="420" r="18"/><circle cx="380" cy="405" r="17"/>
+  </g>
+  <!-- Wooden Spoon -->
+  <g transform="rotate(-25 300 300)">
+    <path d="M 120,280 Q 280,270 320,230 Q 380,180 400,240 Q 380,310 310,290 Q 280,295 120,300 Z" fill="#8d5b28" stroke="#5c3a17" stroke-width="4"/>
+    <ellipse cx="350" cy="250" rx="55" ry="40" fill="#a06830"/>
+  </g>
+  <!-- Peppercorns inside spoon -->
+  <g fill="#261810" stroke="#120b07" stroke-width="1.5">
+    <circle cx="270" cy="250" r="12"/><circle cx="290" cy="240" r="14"/>
+    <circle cx="310" cy="255" r="13"/><circle cx="280" cy="265" r="14"/>
+    <circle cx="300" cy="270" r="12"/><circle cx="320" cy="240" r="13"/>
+  </g>
+  <!-- Brand Overlay Tag -->
+  <rect x="150" y="480" width="300" height="70" fill="#ffffff" rx="8" opacity="0.95"/>
+  <text x="300" y="510" font-family="'Helvetica Neue', sans-serif" font-weight="900" font-size="20" fill="#111827" text-anchor="middle" letter-spacing="1">URBAN PLATTER</text>
+  <text x="300" y="535" font-family="'Georgia', serif" font-weight="bold" font-size="16" fill="#b45309" text-anchor="middle">Black Pepper Whole</text>
+</svg>

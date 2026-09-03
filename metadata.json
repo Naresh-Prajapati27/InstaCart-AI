@@ -1,0 +1,6 @@
+{
+  "name": "InstaCart AI",
+  "description": "AI-Powered Grocery Delivery Platform featuring AI Grocery List Generator, Recipe-to-Cart, Stripe & COD Payments, Live Delivery Tracking, and Admin/Delivery Agent Portals.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

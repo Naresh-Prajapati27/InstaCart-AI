@@ -1,0 +1,15 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+        <rect width='400' height='400' fill='#f8fafc'/>
+        <g>
+            <!-- Purple Box -->
+            <rect x='70' y='70' width='260' height='260' rx='16' fill='#4A154B'/>
+            <text x='200' y='125' font-family='Arial Black' font-size='32' font-weight='900' fill='#FFD100' text-anchor='middle'>UNIBIC</text>
+            <text x='200' y='155' font-family='Arial' font-size='18' font-weight='bold' fill='#FFFFFF' text-anchor='middle'>Assorted Cookies</text>
+            <!-- Chocochip Cookie -->
+            <circle cx='200' cy='240' r='50' fill='#D49A24' stroke='#A06D05' stroke-width='3'/>
+            <circle cx='180' cy='225' r='5' fill='#3D2314'/>
+            <circle cx='215' cy='230' r='6' fill='#3D2314'/>
+            <circle cx='195' cy='255' r='5' fill='#3D2314'/>
+            <circle cx='220' cy='250' r='4' fill='#3D2314'/>
+        </g>
+    </svg>

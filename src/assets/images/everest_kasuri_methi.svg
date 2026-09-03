@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#f8f9fa"/>
+  <!-- Dark Green Box -->
+  <g transform="translate(130, 40)">
+    <rect x="0" y="0" width="340" height="520" fill="#1b5e20" rx="8"/>
+    <!-- Top Red Everest Banner -->
+    <rect x="25" y="30" width="290" height="70" fill="#d50000" rx="6"/>
+    <text x="170" y="80" font-family="'Impact', 'Arial Black', sans-serif" font-size="44" fill="#ffffff" text-anchor="middle" letter-spacing="2">EVEREST</text>
+    <!-- Title Kasuri Methi -->
+    <text x="170" y="150" font-family="'Trebuchet MS', sans-serif" font-weight="bold" font-size="38" fill="#ffffff" text-anchor="middle">Kasuri Methi</text>
+    <text x="170" y="180" font-family="sans-serif" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">(Dry Fenugreek Leaf)</text>
+    <!-- Veg Symbol -->
+    <rect x="285" y="115" width="20" height="20" stroke="#00e676" stroke-width="2" fill="#fff"/>
+    <circle cx="295" cy="125" r="5" fill="#00e676"/>
+    <!-- Paratha & Aloo Methi Photo Area -->
+    <rect x="20" y="210" width="300" height="280" fill="#2e7d32" rx="8"/>
+    <!-- Paratha triangles -->
+    <polygon points="180,240 300,280 220,380" fill="#fbc02d" stroke="#f57f17" stroke-width="3"/>
+    <polygon points="160,260 280,300 200,400" fill="#ffee58" stroke="#f57f17" stroke-width="3"/>
+    <!-- White Bowl with Aloo Kasuri Methi -->
+    <circle cx="120" cy="390" r="70" fill="#ffffff"/>
+    <circle cx="120" cy="390" r="60" fill="#fbc02d"/>
+    <!-- Green methi flecks -->
+    <circle cx="100" cy="370" r="4" fill="#1b5e20"/><circle cx="130" cy="380" r="5" fill="#2e7d32"/>
+    <circle cx="110" cy="410" r="6" fill="#1b5e20"/><circle cx="140" cy="400" r="4" fill="#388e3c"/>
+  </g>
+</svg>

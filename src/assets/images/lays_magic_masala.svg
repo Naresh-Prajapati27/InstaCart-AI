@@ -1,0 +1,35 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+        <defs>
+            <linearGradient id='bg' x1='0%' y1='0%' x2='100%' y2='100%'>
+                <stop offset='0%' stop-color='#0038A8'/>
+                <stop offset='50%' stop-color='#002366'/>
+                <stop offset='100%' stop-color='#001233'/>
+            </linearGradient>
+            <filter id='shadow' x='-10%' y='-10%' width='120%' height='120%'>
+                <feDropShadow dx='0' dy='8' stdDeviation='12' flood-opacity='0.3'/>
+            </filter>
+        </defs>
+        <rect width='400' height='400' fill='#f8fafc'/>
+        <!-- Pack Background -->
+        <g filter='url(#shadow)'>
+            <path d='M80 50 Q200 40 320 50 L310 350 Q200 360 90 350 Z' fill='url(#bg)'/>
+            <!-- Top Seal -->
+            <path d='M80 50 Q200 40 320 50 L318 62 Q200 52 82 62 Z' fill='#001d4a' opacity='0.6'/>
+            <!-- Bottom Seal -->
+            <path d='M90 350 Q200 360 310 350 L308 338 Q200 348 92 338 Z' fill='#001d4a' opacity='0.6'/>
+            <!-- Red Flame Banner -->
+            <path d='M90 140 Q200 120 310 140 L305 210 Q200 190 95 210 Z' fill='#E31837'/>
+            <!-- Lays Yellow Ribbon / Sunburst -->
+            <ellipse cx='200' cy='155' rx='65' ry='32' fill='#FFD100'/>
+            <text x='200' y='163' font-family='Arial Black, sans-serif' font-size='28' font-weight='900' fill='#E31837' text-anchor='middle' font-style='italic'>Lay's</text>
+            <!-- Product Title -->
+            <text x='200' y='245' font-family='Arial, sans-serif' font-size='20' font-weight='bold' fill='#FFFFFF' text-anchor='middle'>India's Magic</text>
+            <text x='200' y='272' font-family='Arial, sans-serif' font-size='24' font-weight='900' fill='#FFD100' text-anchor='middle'>MASALA</text>
+            <!-- Chips Illustration -->
+            <ellipse cx='160' cy='315' rx='30' ry='16' fill='#EAA824' stroke='#D48B16' stroke-width='2' transform='rotate(-15 160 315)'/>
+            <ellipse cx='220' cy='310' rx='32' ry='18' fill='#F3B938' stroke='#D48B16' stroke-width='2' transform='rotate(10 220 310)'/>
+            <!-- Chili spice graphics -->
+            <circle cx='265' cy='325' r='5' fill='#E31837'/>
+            <circle cx='275' cy='318' r='4' fill='#E31837'/>
+        </g>
+    </svg>

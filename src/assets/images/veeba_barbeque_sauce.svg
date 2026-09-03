@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#f8f9fa"/>
+  <!-- Bottle Contour -->
+  <g transform="translate(180, 20)">
+    <!-- Cap -->
+    <rect x="80" y="10" width="80" height="60" fill="#ffffff" stroke="#e0e0e0" stroke-width="3" rx="8"/>
+    <rect x="75" y="60" width="90" height="15" fill="#f5f5f5" rx="4"/>
+    <!-- Neck -->
+    <path d="M 85,75 L 155,75 L 175,180 L 65,180 Z" fill="#3e2723"/>
+    <!-- Body -->
+    <path d="M 65,180 Q 20,280 40,420 Q 50,520 120,520 Q 190,520 200,420 Q 220,280 175,180 Z" fill="#3e2723" stroke="#1b0000" stroke-width="3"/>
+    <!-- Top Label ZERO FAT -->
+    <path d="M 70,140 L 170,140 L 165,190 L 75,190 Z" fill="#ffffff"/>
+    <text x="120" y="162" font-family="sans-serif" font-weight="900" font-size="16" fill="#1a237e" text-anchor="middle">ZERO</text>
+    <text x="120" y="180" font-family="sans-serif" font-weight="900" font-size="16" fill="#1a237e" text-anchor="middle">FAT</text>
+    <!-- Main Label -->
+    <path d="M 45,300 Q 120,280 195,300 L 180,480 Q 120,500 60,480 Z" fill="#ffffff"/>
+    <!-- VEEBA Logo -->
+    <text x="120" y="340" font-family="'Arial Black', sans-serif" font-weight="900" font-size="28" fill="#1a237e" text-anchor="middle">VEEBA</text>
+    <!-- Dark Red Barbeque Banner -->
+    <path d="M 48,360 L 192,360 L 186,430 L 54,430 Z" fill="#b71c1c"/>
+    <text x="120" y="390" font-family="'Trebuchet MS', sans-serif" font-weight="bold" font-size="18" fill="#ffffff" text-anchor="middle">BARBEQUE</text>
+    <text x="120" y="415" font-family="'Georgia', serif" font-style="italic" font-size="16" fill="#ffffff" text-anchor="middle">Sauce</text>
+    <!-- Grill Pan Icon -->
+    <circle cx="120" cy="455" r="16" fill="#3e2723" stroke="#bf360c" stroke-width="2"/>
+    <line x1="110" y1="455" x2="130" y2="455" stroke="#ff5722" stroke-width="2"/>
+  </g>
+</svg>

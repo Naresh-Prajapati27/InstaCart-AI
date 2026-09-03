@@ -1,0 +1,97 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500' width='100%' height='100%'>
+  <defs>
+    <linearGradient id='purpleFoil' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#582b9c'/>
+      <stop offset='40%' stop-color='#3b1875'/>
+      <stop offset='80%' stop-color='#240c4f'/>
+      <stop offset='100%' stop-color='#160633'/>
+    </linearGradient>
+    <linearGradient id='chocoSplash' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0%' stop-color='#4a1d0d'/>
+      <stop offset='100%' stop-color='#1f0802'/>
+    </linearGradient>
+    <filter id='dropShadow' x='-10%' y='-10%' width='120%' height='120%'>
+      <feDropShadow dx='0' dy='6' stdDeviation='8' flood-color='#000000' flood-opacity='0.5'/>
+    </filter>
+  </defs>
+
+  <rect width='500' height='500' fill='#f8fafc'/>
+
+  <!-- Wrapper Body -->
+  <g filter='url(#dropShadow)'>
+    <rect x='40' y='80' width='420' height='340' rx='16' fill='url(#purpleFoil)' stroke='#240c4f' stroke-width='2'/>
+
+    <!-- Crimped Ends -->
+    <rect x='40' y='80' width='16' height='340' fill='#160633' opacity='0.6'/>
+    <rect x='444' y='80' width='16' height='340' fill='#160633' opacity='0.6'/>
+
+    <!-- Top Left Red Corner Flag -->
+    <polygon points='56,80 180,80 180,165 56,220' fill='#d3122a'/>
+    <rect x='70' y='96' width='85' height='22' fill='none'/>
+    <text x='112' y='114' font-family='Arial Black, sans-serif' font-size='20' font-weight='900' fill='#ffffff' text-anchor='middle'>PARLE</text>
+    <text x='112' y='135' font-family='Arial, sans-serif' font-size='12' font-weight='bold' fill='#ffc107' text-anchor='middle' letter-spacing='2'>PLATINA</text>
+
+    <!-- Top Right Chocolate Block Graphic -->
+    <g transform='translate(310, 95) rotate(-10) scale(0.85)'>
+      <rect x='0' y='0' width='110' height='70' rx='4' fill='#3a1a0e' stroke='#5d2c18' stroke-width='2'/>
+      <rect x='8' y='8' width='42' height='24' fill='#5d2c18' rx='2'/>
+      <rect x='58' y='8' width='42' height='24' fill='#5d2c18' rx='2'/>
+      <rect x='8' y='38' width='42' height='24' fill='#5d2c18' rx='2'/>
+      <rect x='58' y='38' width='42' height='24' fill='#5d2c18' rx='2'/>
+    </g>
+
+    <!-- Header Text -->
+    <text x='270' y='200' font-family='Georgia, serif' font-size='15' font-style='italic' fill='#ffffff' text-anchor='middle'>MADE WITH THE WORLD'S</text>
+    <text x='270' y='218' font-family='Georgia, serif' font-size='16' font-style='italic' fill='#ffc107' text-anchor='middle'>Finest Chocolates</text>
+
+    <!-- Main Title HIDE & SEEK -->
+    <text x='250' y='275' font-family='Arial Black, Impact, sans-serif' font-size='48' font-weight='900' fill='#ffffff' text-anchor='middle' letter-spacing='-1'>
+      HIDE <tspan fill='#ffffff' font-family='Georgia, serif' font-size='60' font-weight='normal'>&amp;</tspan> SEEK
+    </text>
+
+    <!-- Subtitle -->
+    <text x='250' y='300' font-family='Arial, sans-serif' font-size='11' font-weight='bold' fill='#e2b653' text-anchor='middle' letter-spacing='1'>WORLD'S BEST MOULDED</text>
+    <text x='250' y='315' font-family='Georgia, serif' font-size='14' font-style='italic' fill='#ffffff' text-anchor='middle'>Chocolate Chip Cookies</text>
+
+    <!-- Liquid Chocolate Splash & Cookies at Bottom -->
+    <path d='M56,360 Q150,330 250,355 T444,350 L444,420 L56,420 Z' fill='url(#chocoSplash)'/>
+
+    <!-- Cookie 1 (Left Back) -->
+    <g transform='translate(200, 320) rotate(-8)'>
+      <rect x='0' y='0' width='110' height='75' rx='6' fill='#bd8448' stroke='#805121' stroke-width='2'/>
+      <!-- Grooves -->
+      <line x1='15' y1='0' x2='15' y2='75' stroke='#9e6833' stroke-width='3'/>
+      <line x1='35' y1='0' x2='35' y2='75' stroke='#9e6833' stroke-width='3'/>
+      <line x1='55' y1='0' x2='55' y2='75' stroke='#9e6833' stroke-width='3'/>
+      <line x1='75' y1='0' x2='75' y2='75' stroke='#9e6833' stroke-width='3'/>
+      <line x1='95' y1='0' x2='95' y2='75' stroke='#9e6833' stroke-width='3'/>
+      <!-- Chocochips on top -->
+      <path d='M25,15 Q30,5 35,15 Z' fill='#240c04'/>
+      <path d='M65,25 Q70,12 75,25 Z' fill='#240c04'/>
+      <path d='M45,45 Q50,32 55,45 Z' fill='#240c04'/>
+      <path d='M85,50 Q90,38 95,50 Z' fill='#240c04'/>
+    </g>
+
+    <!-- Cookie 2 (Right Front) -->
+    <g transform='translate(250, 335) rotate(5)'>
+      <rect x='0' y='0' width='120' height='80' rx='6' fill='#d29858' stroke='#805121' stroke-width='2'/>
+      <!-- Grooves -->
+      <line x1='20' y1='0' x2='20' y2='80' stroke='#aa7138' stroke-width='3'/>
+      <line x1='40' y1='0' x2='40' y2='80' stroke='#aa7138' stroke-width='3'/>
+      <line x1='60' y1='0' x2='60' y2='80' stroke='#aa7138' stroke-width='3'/>
+      <line x1='80' y1='0' x2='80' y2='80' stroke='#aa7138' stroke-width='3'/>
+      <line x1='100' y1='0' x2='100' y2='80' stroke='#aa7138' stroke-width='3'/>
+      <!-- Chocochips -->
+      <path d='M30,20 Q35,8 40,20 Z' fill='#240c04'/>
+      <path d='M70,18 Q75,5 80,18 Z' fill='#240c04'/>
+      <path d='M50,48 Q55,35 60,48 Z' fill='#240c04'/>
+      <path d='M90,52 Q95,40 100,52 Z' fill='#240c04'/>
+      <path d='M25,58 Q30,45 35,58 Z' fill='#240c04'/>
+    </g>
+
+    <!-- Floating Chocochips -->
+    <path d='M170,360 Q175,348 180,360 Z' fill='#3a1a0e'/>
+    <path d='M390,340 Q395,328 400,340 Z' fill='#3a1a0e'/>
+    <path d='M410,375 Q415,365 420,375 Z' fill='#3a1a0e'/>
+  </g>
+</svg>

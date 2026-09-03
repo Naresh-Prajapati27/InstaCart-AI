@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+        <rect width='400' height='400' fill='#f8fafc'/>
+        <g>
+            <!-- Blue Foil Pack -->
+            <rect x='60' y='80' width='280' height='240' rx='16' fill='#0055B8'/>
+            <rect x='60' y='80' width='280' height='20' fill='#003D85' opacity='0.4'/>
+            <rect x='60' y='300' width='280' height='20' fill='#003D85' opacity='0.4'/>
+            <!-- White Oval Logo -->
+            <ellipse cx='200' cy='150' rx='80' ry='40' fill='#FFFFFF' stroke='#003399' stroke-width='4'/>
+            <text x='200' y='160' font-family='Arial Black, sans-serif' font-size='36' font-weight='900' fill='#0055B8' text-anchor='middle'>OREO</text>
+            <!-- Milk Splash -->
+            <path d='M80 260 Q140 220 200 250 T320 240 L340 300 L60 300 Z' fill='#FFFFFF' opacity='0.85'/>
+            <!-- Cookie Illustration -->
+            <circle cx='200' cy='245' r='42' fill='#2B1B17' stroke='#1A100E' stroke-width='3'/>
+            <circle cx='200' cy='245' r='36' fill='none' stroke='#3D2822' stroke-width='4' stroke-dasharray='6,4'/>
+            <circle cx='200' cy='245' r='20' fill='#FFFFFF'/>
+            <text x='200' y='250' font-family='Arial Black' font-size='11' fill='#2B1B17' text-anchor='middle'>OREO</text>
+        </g>
+    </svg>

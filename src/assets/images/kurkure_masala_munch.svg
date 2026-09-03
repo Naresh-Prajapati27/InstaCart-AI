@@ -1,0 +1,20 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+        <rect width='400' height='400' fill='#f8fafc'/>
+        <g>
+            <!-- Orange Bag -->
+            <path d='M80 50 L320 50 L305 350 L95 350 Z' fill='#FF6600'/>
+            <path d='M80 50 L320 50 L315 130 L85 130 Z' fill='#E64A00'/>
+            <!-- Green Band -->
+            <rect x='85' y='130' width='230' height='25' fill='#00873D'/>
+            <!-- Kurkure Logo -->
+            <text x='200' y='105' font-family='Arial Black' font-size='36' font-weight='900' fill='#FFD100' text-anchor='middle' font-style='italic'>Kurkure</text>
+            <text x='200' y='180' font-family='Arial Black' font-size='22' fill='#FFFFFF' text-anchor='middle'>MASALA MUNCH</text>
+            <!-- Tedhe Medhe Sticks -->
+            <path d='M160 230 Q180 260 150 290 Q170 310 160 330' stroke='#EAA824' stroke-width='14' fill='none' stroke-linecap='round'/>
+            <path d='M210 220 Q190 250 220 280 Q200 310 220 335' stroke='#F3B938' stroke-width='16' fill='none' stroke-linecap='round'/>
+            <path d='M250 240 Q230 270 250 300' stroke='#D48B16' stroke-width='12' fill='none' stroke-linecap='round'/>
+            <!-- Chili Powder Splash -->
+            <circle cx='270' cy='320' r='6' fill='#CC0000'/>
+            <circle cx='140' cy='310' r='5' fill='#CC0000'/>
+        </g>
+    </svg>

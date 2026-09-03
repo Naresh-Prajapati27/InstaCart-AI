@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+        <rect width='400' height='400' fill='#f8fafc'/>
+        <g>
+            <!-- Red Metallic Bag -->
+            <path d='M75 55 L325 55 L310 345 L90 345 Z' fill='#D00000'/>
+            <!-- Black Diagonal Slash -->
+            <polygon points='75,100 325,180 325,230 75,150' fill='#111111'/>
+            <!-- Doritos Logo -->
+            <text x='200' y='150' font-family='Arial Black' font-size='38' font-weight='900' fill='#FFFFFF' text-anchor='middle' font-style='italic'>Doritos</text>
+            <!-- Yellow Triangle Chip in Logo -->
+            <polygon points='250,120 280,165 235,160' fill='#FFCC00'/>
+            <text x='200' y='205' font-family='Arial Black' font-size='18' fill='#FFCC00' text-anchor='middle'>NACHO CHEESE</text>
+            <!-- Large Cheese Tortilla Chip -->
+            <polygon points='200,230 260,320 140,310' fill='#FF9900' stroke='#CC6600' stroke-width='3'/>
+            <!-- Melted Cheese Splash -->
+            <circle cx='230' cy='270' r='8' fill='#FFD700'/>
+            <circle cx='180' cy='280' r='6' fill='#FFD700'/>
+        </g>
+    </svg>

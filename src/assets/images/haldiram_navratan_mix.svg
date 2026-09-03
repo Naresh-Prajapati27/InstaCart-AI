@@ -1,0 +1,105 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500' width='100%' height='100%'>
+  <defs>
+    <linearGradient id='bgGrad' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0%' stop-color='#4a0c16'/>
+      <stop offset='50%' stop-color='#2b060d'/>
+      <stop offset='100%' stop-color='#1a0307'/>
+    </linearGradient>
+    <linearGradient id='yellowGrad' x1='0' y1='0' x2='1' y2='0'>
+      <stop offset='0%' stop-color='#fff100'/>
+      <stop offset='100%' stop-color='#ffd200'/>
+    </linearGradient>
+    <filter id='dropShadow' x='-10%' y='-10%' width='120%' height='120%'>
+      <feDropShadow dx='0' dy='6' stdDeviation='8' flood-color='#000000' flood-opacity='0.4'/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width='500' height='500' fill='#f8fafc'/>
+
+  <!-- Package Outer Contour -->
+  <g filter='url(#dropShadow)'>
+    <!-- Main Foil Body -->
+    <path d='M80,40 C180,30 320,30 420,40 L400,460 C300,470 200,470 100,460 Z' fill='url(#bgGrad)' stroke='#6b1422' stroke-width='2'/>
+
+    <!-- Top & Bottom Crimped Seals -->
+    <path d='M80,40 C180,30 320,30 420,40 L418,52 C318,42 182,42 82,52 Z' fill='#1f0308' opacity='0.7'/>
+    <path d='M100,460 C200,470 300,470 400,460 L398,448 C298,458 202,458 102,448 Z' fill='#1f0308' opacity='0.7'/>
+
+    <!-- Scissor Cut Marker Top Right -->
+    <path d='M380,48 L410,48' stroke='#ffffff' stroke-width='1.5' stroke-dasharray='3,3'/>
+    <text x='352' y='46' font-family='sans-serif' font-size='9' fill='#ffffff' opacity='0.8'>Cut Here</text>
+
+    <!-- Top Left Yellow Badge -->
+    <polygon points='82,52 175,52 175,100 83,105' fill='url(#yellowGrad)'/>
+    <text x='128' y='72' font-family='Arial Black, sans-serif' font-size='13' font-weight='900' fill='#000000' text-anchor='middle'>NEW PACK</text>
+    <text x='128' y='88' font-family='Arial, sans-serif' font-size='11' font-weight='bold' fill='#4a0c16' text-anchor='middle'>GREAT TASTE</text>
+
+    <!-- Green Veg Icon (Top Right) -->
+    <rect x='340' y='65' width='24' height='24' fill='#ffffff' stroke='#00873d' stroke-width='2'/>
+    <circle cx='352' cy='77' r='6' fill='#00873d'/>
+
+    <!-- Brand Oval Logo -->
+    <ellipse cx='250' cy='110' rx='75' ry='32' fill='#e31837' stroke='#ffffff' stroke-width='3'/>
+    <ellipse cx='250' cy='110' rx='71' ry='28' fill='none' stroke='#ffeb3b' stroke-width='1.5'/>
+    <circle cx='250' cy='92' r='10' fill='#ffffff'/>
+    <text x='250' y='96' font-family='Georgia, serif' font-size='10' font-weight='bold' fill='#e31837' text-anchor='middle'>HR</text>
+    <text x='250' y='122' font-family='Georgia, serif' font-size='22' font-weight='bold' fill='#ffffff' text-anchor='middle'>Haldiram's</text>
+
+    <!-- Title NAVRATTAN -->
+    <text x='250' y='178' font-family='Arial Black, Impact, sans-serif' font-size='42' font-weight='900' fill='#ffffff' text-anchor='middle' letter-spacing='3'>NAVRATTAN</text>
+
+    <!-- Black Ribbon Subtext -->
+    <rect x='100' y='192' width='300' height='18' fill='#000000' opacity='0.85'/>
+    <text x='250' y='204' font-family='Arial, sans-serif' font-size='9' font-weight='bold' fill='#ffffff' text-anchor='middle' letter-spacing='0.5'>RELISH THE GOODNESS OF DELIGHTFUL SAVOURY TREATS</text>
+
+    <!-- 10g EXTRA Banner -->
+    <rect x='102' y='212' width='296' height='48' fill='url(#yellowGrad)' stroke='#e31837' stroke-width='2'/>
+    <text x='250' y='248' font-family='Arial Black, Impact, sans-serif' font-size='38' font-weight='900' fill='#e31837' text-anchor='middle'>10g <tspan fill='#000000'>EXTRA</tspan></text>
+
+    <!-- Mixture Photo Window Section -->
+    <g transform='translate(0, 0)'>
+      <!-- Background bed for Namkeen -->
+      <path d='M102,262 C180,258 320,258 398,262 L392,440 C300,450 200,450 108,440 Z' fill='#8c5311'/>
+
+      <!-- Individual crispy ingredients -->
+      <!-- Golden Sev threads -->
+      <path d='M110,270 Q200,290 380,270 M120,310 Q250,330 390,300 M110,350 Q220,380 380,360 M120,400 Q250,420 380,390' stroke='#fec107' stroke-width='4' fill='none' stroke-linecap='round'/>
+      <path d='M130,280 Q220,260 370,290 M110,330 Q240,310 380,340 M130,370 Q230,350 370,380' stroke='#ff9800' stroke-width='3' fill='none' stroke-linecap='round'/>
+
+      <!-- Peanuts with skins -->
+      <ellipse cx='160' cy='320' rx='12' ry='7' fill='#792c18' transform='rotate(-20 160 320)'/>
+      <ellipse cx='220' cy='290' rx='14' ry='8' fill='#8d331b' transform='rotate(15 220 290)'/>
+      <ellipse cx='310' cy='330' rx='13' ry='7' fill='#792c18' transform='rotate(-35 310 330)'/>
+      <ellipse cx='270' cy='380' rx='14' ry='8' fill='#8d331b' transform='rotate(40 270 380)'/>
+      <ellipse cx='180' cy='410' rx='12' ry='7' fill='#792c18' transform='rotate(10 180 410)'/>
+
+      <!-- Fried Chana / Lentils -->
+      <circle cx='130' cy='350' r='6' fill='#e2a021'/>
+      <circle cx='200' cy='360' r='7' fill='#e2a021'/>
+      <circle cx='340' cy='300' r='6' fill='#e2a021'/>
+      <circle cx='350' cy='370' r='7' fill='#e2a021'/>
+      <circle cx='230' cy='420' r='6' fill='#e2a021'/>
+
+      <!-- Red lentils / spices -->
+      <circle cx='180' cy='280' r='4' fill='#a82111'/>
+      <circle cx='290' cy='280' r='5' fill='#a82111'/>
+      <circle cx='140' cy='380' r='4' fill='#a82111'/>
+      <circle cx='320' cy='410' r='5' fill='#a82111'/>
+
+      <!-- Potato Chips / Flakes -->
+      <ellipse cx='250' cy='330' rx='22' ry='12' fill='#fef0b3' stroke='#d4a329' transform='rotate(12 250 330)'/>
+      <ellipse cx='340' cy='345' rx='18' ry='10' fill='#fef0b3' stroke='#d4a329' transform='rotate(-25 340 345)'/>
+      <ellipse cx='150' cy='295' rx='16' ry='9' fill='#fef0b3' stroke='#d4a329' transform='rotate(30 150 295)'/>
+    </g>
+
+    <!-- Bottom Stamp Emblem -->
+    <circle cx='250' cy='425' r='24' fill='#1a0307' stroke='#ffd200' stroke-width='1.5'/>
+    <circle cx='250' cy='425' r='21' fill='none' stroke='#ffd200' stroke-width='1' stroke-dasharray='3,2'/>
+    <text x='250' y='422' font-family='Georgia, serif' font-size='8' font-style='italic' fill='#ffffff' text-anchor='middle'>Indian</text>
+    <text x='250' y='431' font-family='Arial Black, sans-serif' font-size='8' fill='#ffd200' text-anchor='middle'>Savoury</text>
+    <text x='250' y='438' font-family='Georgia, serif' font-size='7' fill='#ffffff' text-anchor='middle'>SNACK</text>
+    
+    <text x='250' y='456' font-family='Arial Black, sans-serif' font-size='11' font-weight='bold' fill='#ffffff' text-anchor='middle' letter-spacing='2'>NAMKEEN</text>
+  </g>
+</svg>

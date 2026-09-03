@@ -1,0 +1,74 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500' width='100%' height='100%'>
+  <defs>
+    <linearGradient id='bgGradient' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0%' stop-color='#80091b'/>
+      <stop offset='45%' stop-color='#5e0411'/>
+      <stop offset='46%' stop-color='#f5b316'/>
+      <stop offset='100%' stop-color='#e59a00'/>
+    </linearGradient>
+    <filter id='dropShadow' x='-10%' y='-10%' width='120%' height='120%'>
+      <feDropShadow dx='0' dy='6' stdDeviation='8' flood-color='#000000' flood-opacity='0.4'/>
+    </filter>
+  </defs>
+
+  <rect width='500' height='500' fill='#f8fafc'/>
+
+  <g filter='url(#dropShadow)'>
+    <!-- Main Pillow Bag -->
+    <path d='M70,40 L430,40 L410,460 L90,460 Z' fill='url(#bgGradient)' stroke='#5e0411' stroke-width='2'/>
+
+    <!-- Seals -->
+    <rect x='70' y='40' width='360' height='15' fill='#3d020a' opacity='0.7'/>
+    <rect x='90' y='445' width='320' height='15' fill='#3d020a' opacity='0.7'/>
+
+    <!-- ITC Logo Top Right -->
+    <g transform='translate(360, 65) scale(0.7)'>
+      <polygon points='25,0 50,40 0,40' fill='#ffffff'/>
+      <text x='25' y='32' font-family='Arial Black, sans-serif' font-size='14' fill='#80091b' text-anchor='middle'>ITC</text>
+      <text x='25' y='48' font-family='Arial, sans-serif' font-size='7' fill='#ffffff' text-anchor='middle'>Enduring Value</text>
+    </g>
+
+    <!-- BINGO! Logo -->
+    <ellipse cx='210' cy='115' rx='60' ry='32' fill='#e31837' stroke='#ffeb3b' stroke-width='3' transform='rotate(-8 210 115)'/>
+    <text x='208' y='124' font-family='Arial Black, sans-serif' font-size='26' font-weight='900' fill='#ffffff' text-anchor='middle' transform='rotate(-8 210 115)'>BINGO!</text>
+
+    <!-- MAD ANGLES Text -->
+    <text x='250' y='180' font-family='Arial Black, Impact, sans-serif' font-size='44' font-weight='900' fill='#ffffff' stroke='#80091b' stroke-width='3' text-anchor='middle' font-style='italic'>MAD ANGLES</text>
+
+    <!-- Flavor Name -->
+    <text x='250' y='245' font-family='Arial Black, sans-serif' font-size='32' font-weight='900' fill='#80091b' text-anchor='middle'>ACHAARI</text>
+    <text x='250' y='280' font-family='Arial Black, sans-serif' font-size='36' font-weight='900' fill='#80091b' text-anchor='middle'>MASTI</text>
+
+    <!-- Pickle Jar (Barni) Graphic -->
+    <g transform='translate(160, 300) scale(0.9)'>
+      <!-- Jar Lid -->
+      <ellipse cx='40' cy='15' rx='18' ry='8' fill='#b8860b'/>
+      <rect x='28' y='15' width='24' height='12' fill='#d4af37'/>
+      <!-- Jar Body -->
+      <path d='M20,27 C15,35 12,60 12,80 C12,95 25,100 40,100 C55,100 68,95 68,80 C68,60 65,35 60,27 Z' fill='#ffffff' stroke='#cccccc' stroke-width='2'/>
+      <path d='M20,27 L60,27 L62,50 L18,50 Z' fill='#d4af37'/>
+      <!-- Raw Mangoes & Chilies -->
+      <path d='M-10,75 C-10,60 5,65 15,80 C10,90 -5,90 -10,75 Z' fill='#4caf50'/>
+      <path d='M5,90 Q20,100 35,92' stroke='#d3122a' stroke-width='4' fill='none' stroke-linecap='round'/>
+    </g>
+
+    <!-- Stacked Triangular Chips -->
+    <g transform='translate(230, 240)'>
+      <!-- Chip 1 (Top) -->
+      <polygon points='100,20 180,110 30,100' fill='#f28e2b' stroke='#b05202' stroke-width='2'/>
+      <!-- Seasoning specks -->
+      <circle cx='80' cy='60' r='2' fill='#80091b'/>
+      <circle cx='110' cy='75' r='2' fill='#80091b'/>
+      <circle cx='130' cy='90' r='2.5' fill='#80091b'/>
+
+      <!-- Chip 2 (Middle) -->
+      <polygon points='120,80 190,170 50,150' fill='#e67e22' stroke='#b05202' stroke-width='2'/>
+      <circle cx='100' cy='120' r='2' fill='#80091b'/>
+      <circle cx='140' cy='135' r='2.5' fill='#80091b'/>
+
+      <!-- Chip 3 (Bottom) -->
+      <polygon points='110,140 170,205 60,195' fill='#f39c12' stroke='#b05202' stroke-width='2'/>
+      <circle cx='110' cy='170' r='2' fill='#80091b'/>
+    </g>
+  </g>
+</svg>

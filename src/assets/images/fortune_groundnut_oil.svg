@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#f8f9fa"/>
+  <!-- Pouch -->
+  <g transform="translate(120, 30)">
+    <path d="M 20,20 L 340,20 L 350,520 Q 180,550 10,520 Z" fill="#ffffff" stroke="#e0e0e0" stroke-width="3"/>
+    <!-- Fortune Red Sweeping Logo -->
+    <text x="50" y="280" font-family="'Arial Black', sans-serif" font-weight="900" font-size="62" fill="#d50000" transform="rotate(-90 50 280)" letter-spacing="-2">Fortune</text>
+    <!-- Gold Wave Curve Right Side -->
+    <path d="M 160,20 Q 320,180 200,450 L 350,450 L 340,20 Z" fill="#ffb300"/>
+    <path d="M 180,20 Q 340,180 220,420 L 350,420 L 340,20 Z" fill="#fff8e1"/>
+    <!-- Text Filtered Groundnut Oil -->
+    <rect x="170" y="230" width="100" height="40" fill="#d50000" rx="4"/>
+    <text x="220" y="255" font-family="sans-serif" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">new pack</text>
+    <text x="240" y="300" font-family="'Trebuchet MS', sans-serif" font-weight="bold" font-size="28" fill="#bf360c">Filtered</text>
+    <text x="240" y="335" font-family="'Trebuchet MS', sans-serif" font-weight="bold" font-size="32" fill="#bf360c">groundnut</text>
+    <text x="240" y="370" font-family="'Trebuchet MS', sans-serif" font-weight="bold" font-size="32" fill="#bf360c">oil</text>
+    <!-- Peanuts at Bottom -->
+    <g transform="translate(100, 430)">
+      <ellipse cx="60" cy="40" rx="25" ry="14" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/>
+      <ellipse cx="90" cy="35" rx="22" ry="12" fill="#bcaaa4" stroke="#6d4c41" stroke-width="2"/>
+      <ellipse cx="130" cy="45" rx="26" ry="15" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2"/>
+      <ellipse cx="170" cy="38" rx="20" ry="11" fill="#ef9a9a" stroke="#c62828" stroke-width="2"/>
+      <ellipse cx="200" cy="42" rx="22" ry="12" fill="#ef9a9a" stroke="#c62828" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
