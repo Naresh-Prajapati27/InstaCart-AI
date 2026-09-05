@@ -42,13 +42,13 @@ import { INITIAL_PRODUCTS, INITIAL_ORDERS, INITIAL_AGENTS } from './data/initial
 
 // Web App Firebase configuration
 const firebaseConfig = {
-  apiKey: firebaseConfigData.apiKey || "AIzaSyAeZh9taHzdx-xy2k4MwGACesGkDdYh4AQ",
-  authDomain: firebaseConfigData.authDomain || "instacart-ai-d7a9e.firebaseapp.com",
-  projectId: firebaseConfigData.projectId || "instacart-ai-d7a9e",
-  storageBucket: firebaseConfigData.storageBucket || "instacart-ai-d7a9e.firebasestorage.app",
-  messagingSenderId: firebaseConfigData.messagingSenderId || "547094945232",
-  appId: firebaseConfigData.appId || "1:547094945232:web:98babdce521f823d61edd5",
-  measurementId: firebaseConfigData.measurementId || "G-98DQQTHWK3"
+apiKey: firebaseConfigData.apiKey || "",
+authDomain: firebaseConfigData.authDomain || "",
+projectId: firebaseConfigData.projectId || "",
+storageBucket: firebaseConfigData.storageBucket || "",
+messagingSenderId: firebaseConfigData.messagingSenderId || "",
+appId: firebaseConfigData.appId || "",
+measurementId: firebaseConfigData.measurementId || "G-98DQQTHWK3"
 };
 
 // Initialize Firebase App
