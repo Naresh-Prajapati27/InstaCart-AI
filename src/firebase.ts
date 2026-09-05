@@ -30,7 +30,14 @@ import {
   getDocFromServer,
 } from 'firebase/firestore';
 import { CustomerUser, Order, OrderItem, Product, DeliveryAgent, UserProfile, UserRole, UserStatus } from './types';
-import firebaseConfigData from '../firebase-applet-config.json';
+import firebaseConfigDataRaw from '../firebase-applet-config.json';
+
+type FirebaseConfigData = typeof firebaseConfigDataRaw & {
+  measurementId?: string;
+  firestoreDatabaseId?: string;
+};
+
+const firebaseConfigData = firebaseConfigDataRaw as FirebaseConfigData;
 import { INITIAL_PRODUCTS, INITIAL_ORDERS, INITIAL_AGENTS } from './data/initialData';
 
 // Web App Firebase configuration
@@ -450,8 +457,8 @@ export async function signInWithEmailFirebase(
 
   // Delivery Partner Check (Seed Agents / Predefined Riders)
   const matchedSeedAgent = INITIAL_AGENTS.find(
-    (a) => a.email.toLowerCase() === cleanEmail
-  );
+  (a) => (a.email || '').toLowerCase() === cleanEmail
+);
 
   if (matchedSeedAgent) {
     let fbUser: FirebaseUser | null = null;
@@ -547,7 +554,7 @@ export async function signInWithEmailFirebase(
             uid: agData.id,
             id: agData.id,
             name: agData.name,
-            email: agData.email,
+            email: agData.email ?? cleanEmail,
             role: 'driver',
             status: agData.documentsVerified ? 'active' : 'pending_approval',
             emailVerified: true,
